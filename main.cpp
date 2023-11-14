@@ -1,6 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
+
+int N;
 
 int main() {
   printf("Hello, world");

@@ -2,7 +2,6 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
 	"name": "competitive-devcontainer",
-	// ubuntu with gcc
 	"dockerFile": "Dockerfile",
 	"features": {
 		"ghcr.io/devcontainers/features/go:1": {},
@@ -20,6 +19,7 @@
 			]
 		}
 	},
-	// luabundler
-	"postCreateCommand": "npm install -g luabundler"
+	"postCreateCommand": "npm install -g luabundler",
+	// stack 512MB
+	"runArgs": ["--ulimit", "stack=536870912"]
 }
