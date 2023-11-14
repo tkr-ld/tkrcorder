@@ -21,5 +21,9 @@
     "omnisharp.enableRoslynAnalyzers": true,
     "omnisharp.useModernNet": true,
     "omnisharp.organizeImportsOnFormat": true,
-    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true
+    "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp"
+    }
 }
