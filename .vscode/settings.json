@@ -27,6 +27,8 @@
         "random": "cpp",
         "chrono": "cpp",
         "limits": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "complex": "cpp",
+        "*.tcc": "cpp"
     }
 }

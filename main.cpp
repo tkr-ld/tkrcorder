@@ -2,6 +2,9 @@
 using namespace std;
 
 int main() {
-    double a = 3.0 / 1.5;
-    cout << a << endl;
+    for(int i=1;i<=n;i++) {
+        for(int j=1;j<=m;j++) {
+        
+        }
+    }
 }
